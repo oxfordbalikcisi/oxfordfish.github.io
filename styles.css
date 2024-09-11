@@ -34,12 +34,12 @@ body {
   display: inline-block;
   padding: 10px 20px;
   margin: 5px;
-  background-color: #007bff;
+  background-color: #343131;
   color: white;
   text-decoration: none;
   border-radius: 4px;
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background-color: #a1d6b2;
 }
