@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Arka plan rengini belirleyebilirsin */
+}
+
+#container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* İçeriği ortalar */
+}
+
+#main {
+  width: 300px; /* veya istediğin genişlik */
+  padding: 20px;
+  background-color: lightblue; /* Arka plan rengini belirleyebilirsin */
+  z-index: 1; /* Üstte görünmesini sağlar */
+}
+
+#buttons {
+  margin-top: 20px; /* İki div arasında boşluk bırakır */
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
